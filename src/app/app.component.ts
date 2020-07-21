@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
  * https://github.com/SamGraber/angular-electron-forge
  * https://www.electronjs.org/docs
  * https://malcoded.com/posts/angular-desktop-electron/
+ * https://dzone.com/articles/tutorial-use-angular-and-electron-to-create-a-desk
  */
 @Component({
   selector: 'app-root',
