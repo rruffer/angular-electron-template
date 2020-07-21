@@ -11,8 +11,8 @@ function createWindows() {
   win = new BrowserWindow({
     width: 600,
     height: 600,
-    backgroundColor: '#ffffff',
-    icon: path.join(__dirname, '../dist/assets/logo.png')
+    backgroundColor: '#ffffff'//,
+    // icon: path.join(__dirname, '../dist/assets/logo.png')
   });
 
   win.loadURL(url.format({
@@ -21,7 +21,9 @@ function createWindows() {
     slashes: true
   }));
 
-  win.webContents.openDevTools();
+  if (isDev()) {
+    win.webContents.openDevTools()
+  }
 
   win.on('close', function () {
     win = null;

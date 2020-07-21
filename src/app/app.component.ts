@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
  * https://github.com/dalenguyen/todo-app-electron-angular
  * https://github.com/SamGraber/angular-electron-forge
  * https://www.electronjs.org/docs
+ * https://malcoded.com/posts/angular-desktop-electron/
  */
 @Component({
   selector: 'app-root',
