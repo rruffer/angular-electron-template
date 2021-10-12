@@ -64,7 +64,7 @@
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0-next.1",
     "cross-var": "^1.1.0",
-    "electron": "^9.1.1",
+    "electron": "^11.5.0",
     "electron-builder": "^22.7.0",
     "electron-packager": "^15.0.0",
     "electron-prebuilt-compile": "^8.2.0",
